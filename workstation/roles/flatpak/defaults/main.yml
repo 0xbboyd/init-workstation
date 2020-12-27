@@ -1,0 +1,32 @@
+---
+# defaults file for flatpak
+- packages:
+  - com.bitwarden.desktop
+  - com.getpostman.Postman
+  - com.mattermost.Desktop
+  - com.slack.Slack
+  - com.toggl.TogglDesktop
+  - com.visualstudio.code
+  - org.gnome.Calculator
+  - org.gnome.Calendar
+  - org.gnome.Characters
+  - org.gnome.Contacts
+  - org.gnome.Evince
+  - org.gnome.Extensions
+  - org.gnome.FileRoller
+  - org.gnome.Logs
+  - org.gnome.Maps
+  - org.gnome.NautilusPreviewer
+  - org.gnome.Platform
+  - org.gnome.Platform
+  - org.gnome.Screenshot
+  - org.gnome.Weather
+  - org.gnome.baobab
+  - org.gnome.clocks
+  - org.gnome.eog
+  - org.gnome.font-viewer
+  - org.gnome.gedit
+  - org.gnome.meld
+  - org.libreoffice.LibreOffice
+  - org.videolan.VLC
+  - us.zoom.Zoom

@@ -1,0 +1,17 @@
+---
+# defaults file for rpm-ostree
+- packages:
+  - "ansible"
+  - "fontawesome-fonts"
+  - "gnome-tweaks"
+  - "luv-icon-theme"
+  - "nautilus-image-converter"
+  - "paper-icon-theme"
+  - "powerline"
+  - "powerline-fonts"
+  - "tmux"
+  - "tmux-powerline"
+  - "vim"
+  - "vim-powerline" 
+  - "virt-manager"
+  - "zsh"
