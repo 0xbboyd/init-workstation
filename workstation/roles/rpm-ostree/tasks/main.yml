@@ -1,2 +1,7 @@
 ---
 # tasks file for rpm-ostree
+
+- name: Install rpms
+  shell: rpm-ostree {{ item }}
+  with_items:
+    - packages
