@@ -17,8 +17,6 @@ packages:
   - org.gnome.Logs
   - org.gnome.Maps
   - org.gnome.NautilusPreviewer
-  - org.gnome.Platform
-  - org.gnome.Platform
   - org.gnome.Screenshot
   - org.gnome.Weather
   - org.gnome.baobab

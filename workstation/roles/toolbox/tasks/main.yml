@@ -1,0 +1,9 @@
+---
+# tasks file for toolbox
+
+- name: Create a container for ocp stack dev utils
+  shell: "toolbox create -c ocp-utils"
+
+- name: Download and extract the latest binaries
+  shell: "toolbox run -c ocp-utils mkdir -p ~/bin; cd ~/bin; wget -c {{ item }} -O - | tar -xz"
+  with_items: "{{ packages }}"

@@ -2,5 +2,5 @@
 # tasks file for rpm-ostree
 
 - name: Install rpms
-  shell: "rpm-ostree install {{ item }}"
+  shell: "rpm-ostree install --idempotent {{ item }}"
   with_items: "{{ packages }}"
