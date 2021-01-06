@@ -1,6 +1,6 @@
 ---
 # defaults file for rpm-ostree
-- packages:
+packages:
   - ansible
   - fontawesome-fonts
   - gnome-tweaks

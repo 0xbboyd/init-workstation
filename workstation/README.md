@@ -1,3 +1,5 @@
 # Ansible Collection - bboyd.workstation
 
-Documentation for the collection.
+```
+ansible-playbook -v --become -K -i inventory install.yml
+```

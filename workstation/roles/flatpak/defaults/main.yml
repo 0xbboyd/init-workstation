@@ -1,6 +1,6 @@
 ---
 # defaults file for flatpak
-- packages:
+packages:
   - com.bitwarden.desktop
   - com.getpostman.Postman
   - com.mattermost.Desktop
