@@ -1,6 +1,4 @@
 ---
 # defaults file for toolbox
-packages:
-  - https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/linux/oc.tar.gz
-  - https://mirror.openshift.com/pub/openshift-v4/clients/pipeline/latest/tkn-linux-amd64-0.13.1.tar.gz
-  - https://mirror.openshift.com/pub/openshift-v4/clients/odo/latest/odo-linux-amd64.tar.gz
+ocp-toolbox-host-src: ~/src
+ocp-toolbox-guest-src: ~/src-shared
