@@ -7,14 +7,7 @@
     dest: ~/src/utils/ocp-toolbox
 
 - name: Build an ocp-toolbox container
-  shell:
-    chdir: ~/src/utils/ocp-toolbox
-    cmd: buildah bud -f dockerfile -t ocp-toolbox:latest .
-
-- name: Start and mount ocp-toolbox
-  containers.podman.podman_container:
+  containers.podman.podman_image:
     name: ocp-toolbox
-    image: ocp-toolbox:latest
-    hostname: ocp-toolbox
-    volume:
-      - "{{ ocp-toolbox-host-src }}:/{{ ocp-toolbox-guest-src }}:O"
+    path: "~/src/utils/ocp-toolbox"
+    state: build
